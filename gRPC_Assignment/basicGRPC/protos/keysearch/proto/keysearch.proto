@@ -1,0 +1,23 @@
+
+syntax = "proto3";
+package proto.keysearch;
+
+message Query {
+    string word = 1;
+    int32 mincount = 2;
+}
+
+message Result {
+    string word = 1;
+    string file = 2;
+    int32 count = 3;
+}
+
+message RepeatedResult {
+    repeated Result Results = 1;
+}
+
+service KeywordSearch {
+    rpc Whohas (proto.keysearch.Query) returns (proto.keysearch.RepeatedResult);
+    rpc Whohas2 (proto.keysearch.Query) returns (proto.keysearch.RepeatedResult);
+}

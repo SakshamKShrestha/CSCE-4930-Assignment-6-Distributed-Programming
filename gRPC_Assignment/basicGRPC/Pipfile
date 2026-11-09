@@ -1,0 +1,19 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+grpcio = "*"
+grpcio-tools = "*"
+grpcio-testing = "*"
+grpcio-reflection = "*"
+psycopg2-binary = "*"
+googleapis-common-protos = "*"
+googleapis-common-protos-stubs = "*"
+keysearch-proto = {editable = true,path = "./libs/proto"}
+
+[requires]
+python_version = "3.8"

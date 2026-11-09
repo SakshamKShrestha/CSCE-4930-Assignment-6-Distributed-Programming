@@ -1,0 +1,9 @@
+*** The following briefly explains the server.py code ***
+
+Lines 12-23 are for handling the database.
+
+Lines 29-42 is a function that searches the database for a given string. Each file must contain the string
+a minimum of 1 time(s). The resulting files and how many times the word appears in each file are the returned.
+Additionally, it should be noted the this function is a member of the Server class.
+
+Lines 44-51 set up gRPC communication, "broadcasting" its service.

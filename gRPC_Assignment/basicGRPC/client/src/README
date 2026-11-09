@@ -1,0 +1,12 @@
+*** The following briefly explains the client-node.js code ***
+
+Lines 1-21 are some declarations and options that are used later in the file.
+
+Lines 24-26 & 37-39 are simple error handling. It really isn't robust but it gets the job done.
+
+The switch statement at line 33 allows the program to recognize which function the user called.
+This makes it easier to retrofit a new function for redesigns.
+
+Lines 45-50 are the central machination of this program. The client object knows where to make procedure call to, or
+in other words, where the server is located. It passes to it which function is wishes to call, as well as its arguments.
+The server then returns some result after processing this request.

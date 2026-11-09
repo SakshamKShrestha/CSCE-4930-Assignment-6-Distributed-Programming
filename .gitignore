@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# Node.js
+node_modules/
+
+# MPI temporary files
+MPI_Assignment/mpi_search_All
+MPI_Assignment/timing.txt
+
+# Generated package metadata
+*.egg-info/
+
+# Temporary files
+*.log

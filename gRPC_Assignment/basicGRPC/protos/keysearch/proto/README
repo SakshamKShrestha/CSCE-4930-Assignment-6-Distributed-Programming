@@ -1,0 +1,9 @@
+*** The following briefly explains the keysearch.proto code ***
+
+Line 2 is announcing how the .proto file should be imported or recognized by other files.
+
+Lines 4-15 are considered message objects. These are proclamations on what kind of requests and responses
+clients and servers can make amongst themselves.
+
+Lines 17-19 is a service object. This is proclaiming what service is available on the server. Additionally,
+it declares the functions that the server offers.
