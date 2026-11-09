@@ -16,3 +16,6 @@ MPI_Assignment/timing.txt
 
 # Temporary files
 *.log
+
+# Java compiled files
+*.class

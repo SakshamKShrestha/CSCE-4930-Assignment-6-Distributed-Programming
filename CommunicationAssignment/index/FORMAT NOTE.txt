@@ -1,0 +1,8 @@
+Format = word + 
+    Repeat of
+        |.| + text file that contain it + |.| + relevency
+
+for example:
+    pick|.|WET2072.txt|.|20|.|WET5990.txt|.|59
+means 
+    "pick" appear in WET2072.txt and WET5990.txt with 20 and 59 relevent score respectively.
