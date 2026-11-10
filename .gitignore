@@ -19,3 +19,4 @@ MPI_Assignment/timing.txt
 
 # Java compiled files
 *.class
+CommunicationAssignment/messagequeue/target/
